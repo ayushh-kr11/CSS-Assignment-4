@@ -1,0 +1,173 @@
+.h1{
+  height: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  background-image: linear-gradient(to right, red, green, yellow);
+}
+
+.info{
+  color: black;
+  height: 100px;
+  width: 750px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 320px;
+  background-color:turquoise;
+}
+
+ul{
+  margin-right: 260px;
+  margin-left: 320px;
+}
+
+.pdiv{
+  background-color: turquoise;
+  margin-top: 22px;
+  padding-top: 20px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.divA{
+  display: flex;
+  flex-direction: row;
+}
+
+.para{
+  background-color: aquamarine;
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 60px;
+  width: 390px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.divB{
+  margin-left: 430px;
+}
+
+.info2{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-image: linear-gradient(to right, red, yellow, red);
+}
+
+.divC{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  background: radial-gradient(blue , aqua, green);
+  height: 200px;
+}
+
+.student{
+  height: 100px;
+  width: 200px;
+  background-color:yellow;
+  border: 2px solid red;
+  color: brown;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.grid{
+  display: grid;
+  width: 100%;
+  height: auto;
+  column-gap: 5px;
+  border: 2px solid black;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5px;
+  row-gap: 5px;
+}
+
+.heading{
+  color: white;
+  background-color: red;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  grid-column: 1 / 5;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.grid1{
+  height: 70px;
+  width: 365px;
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:aliceblue;
+}
+
+.grid2{
+  color: white;
+  font-weight: bold;
+  height: 70px;
+  width: 365px;
+  background-color: rgb(115, 203, 233);
+  font-size: 30px;
+}
+
+.grid3{
+  color: white;
+  height: 70px;
+  width: 365px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: blue;
+}
+
+.grid4{
+  width: 130px;
+  height: 190px;
+  background-color: black;
+  grid-column-start: 4;
+  color: white;
+  grid-row: 2 / 8;
+}
+
+.grid5{
+  color: rgb(255, 255, 255);
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:orange;
+  grid-column: 1 / 4;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+
+.msg{
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  border: 2px solid black;
+  grid-column: 1 / 5;
+  font-size: 20px;
+}
+
